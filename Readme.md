@@ -46,7 +46,7 @@ Make sure chromedriver is available in your system PATH.
 
 Run the scraper:
 ```bash
-python scraper.py
+python main.py
 ```
 
 ## 🧠 How It Works
@@ -66,16 +66,16 @@ The data is saved as a list of dictionaries in orera_projects.json. Example:
 ```bash
 [
   {
-    "Project Name": "Dream Homes",
-    "Promoter Name": "ABC Builders",
-    "Rera Regd. No": "ORERA123456",
-    "Project Address": "Bhubaneswar, Odisha",
+    "Project Name": "Basanti Enclave",
+    "Promoter Name": "M/S. NEELACHAL INFRA DEVELOPERS PVT. LTD",
+    "Rera Regd. No": "RP/01/2025/01362",
+    "Project Address": "Angul",
     "Project Type": "Residential",
-    "Started From": "01-Jan-2022",
-    "Possession by": "31-Dec-2025",
-    "Units": "120",
-    "GST No.": "21ABCDE1234F1Z5",
-    "Address of the Promoter": "Plot No 123, Jaydev Vihar, Bhubaneswar"
+    "Started From": "May, 2025",
+    "Possession by": "Dec, 2027",
+    "Units": "86 Units",
+    "GST No.": "21AADCN5439J2ZH",
+    "Address of the Promoter": "Gurudwara, PO-South Balanda, Via: Talcher Rural INR, Angul-759116, Dist. Angul, Odisha ,,,,,"
   }
 ]
 ```
